@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
 <meta name="theme-color" content="#000000"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<title>ENZO_HARK · &gt;_æ: the OSW.os monorepo</title>
+<title>HANS · robotface de #OSW ante la IOA · &gt;_æ: OSW.os</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400&amp;display=swap"/>
@@ -940,9 +940,9 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
 <nav class="x-menu" id="xmenu" aria-label="Monorepo map">
   <ul class="x-menu__list" id="xmenu-list">
     <li><a href="#face">&gt;_ Face</a></li>
-    <li><a href="#repo">ENZO_HARK</a></li>
+    <li><a href="#repo">HANS</a></li>
     <li><a href="#tree">Repo tree</a></li>
-    <li><a href="#control">Control Enzo</a></li>
+    <li><a href="#control">Control HANS</a></li>
     <li><a href="#learned">Learned</a></li>
     <li><a href="#governed">Governed</a></li>
   </ul>
@@ -954,11 +954,11 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
     <section class="section" id="repo" data-nav="Repo">
       <div class="head">
         <p class="head__eyebrow x-mono x-glow">&gt;_æ: OSW.os</p>
-        <h2>ENZO_HARK</h2>
+        <h2>HANS</h2>
         <p class="head__sub">The OSW.os monorepo.</p>
       </div>
       <div class="prose">
-        <p>Enzo&#39;s robot face is the root and the live face; everything else lives beside it.</p>
+        <p>HANS, named for Hans Nielsen Hauge, is the robot face that represents #OSW before the IOA. The face is the root and the live face; everything else lives beside it.</p>
         <p>Origin <span class="pill x-mono">x:0, y:0, z:0</span> <span class="pill x-mono">æ:æ:æ</span></p>
       </div>
     </section>
@@ -969,7 +969,7 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
       </div>
       <ul class="x-tree">
         <li><code class="x-glow">/</code><p>Robot face <span class="pill x-mono">index.html</span><br/><span class="dot">The live face</span></p></li>
-        <li><code class="x-glow">biblioteca_luterana/</code><p>Lutheran archive Enzo reads from<small>Colección 01: el Instituto · junta 2026-10-21 agenda</small></p></li>
+        <li><code class="x-glow">biblioteca_luterana/</code><p>Lutheran archive HANS reads from<small>Colección 01: el Instituto · junta 2026-10-21 agenda</small></p></li>
         <li><code class="x-glow">demos/</code><p>Frames and captures<small>frame-16x9 · genesis and v2 biblioteca videos</small></p></li>
         <li><code class="x-glow">apps/discord-bot/</code><p>IOA bot <span class="pill x-mono">_æ</span> for the seven servers</p></li>
         <li><code class="x-glow">apps/agentic-webmaster/</code><p>Governed domain and page operations</p></li>
@@ -1008,7 +1008,7 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
 
     <section class="section" id="learned" data-nav="Learned">
       <div class="head">
-        <h2>What Enzo has learned so far.</h2>
+        <h2>What HANS has learned so far.</h2>
         <p class="head__sub">Logged in docs/LEARNING.md.</p>
       </div>
       <ol class="timeline">
@@ -1022,7 +1022,7 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
         </li>
         <li>
           <p class="timeline__when">Next</p>
-          <div class="timeline__what"><p><strong>&#34;Enzo has so much learning to do.&#34;</strong></p><p>Each new skill lands as a mode, committed with a receipt.</p></div>
+          <div class="timeline__what"><p><strong>&#34;HANS has so much learning to do.&#34;</strong></p><p>Each new skill lands as a mode, committed with a receipt.</p></div>
         </li>
       </ol>
     </section>
@@ -1051,7 +1051,7 @@ canvas.stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:non
     </section>
   </main>
   <footer class="foot">
-    <p><span class="x-mono x-glow">&gt;_æææ://</span> · Enzo (Lorænzzo Méndez), a grey Cane Corso.</p>
+    <p><span class="x-mono x-glow">&gt;_æææ://</span> · HANS, in honor of Hans Nielsen Hauge · #OSW robotface before the IOA · dev name Enzo (Lorænzzo Méndez), a grey Cane Corso.</p>
     <nav aria-label="Back to sections" data-auto=""></nav>
     <a class="badge" href="https://hark.com/" rel="noopener" target="_blank"><span class="hark-mark"></span><span>built by hark</span></a>
   </footer>
@@ -1223,7 +1223,7 @@ $("mode").addEventListener("pointerdown",e=>{e.stopPropagation();const on=!vp.cl
 $("devb").addEventListener("pointerdown",e=>{e.stopPropagation();vp.classList.toggle("show-dev");info();});
 
 // ---- boot: >_  types its address, the orb is born, the face wakes ----
-const ADDR="æææ://enzo@yael/face";
+const ADDR="æææ://hans@osw/face";
 function boot(){vp.classList.add("boot");vp.classList.remove("is-live");$("mode").textContent="●";setExpr("sleep");$("addr").textContent="";
   if(reduce){vp.classList.remove("boot");sfx("boot");setExpr("neutral");$("addr").textContent=ADDR;return;}
   let i=0;setTimeout(function type(){$("addr").textContent=ADDR.slice(0,++i);sfx("key",{rate:rr(.95,1.08)});if(i<ADDR.length)setTimeout(type,55+Math.random()*60);
@@ -1364,11 +1364,11 @@ if(window.SFX)window.SFX.auto=()=>autoOn;
 if(autoOn&&!reduce)startAuto();else $("auto").textContent="▶";
 })();
 
-// ================= v2 · ENZO_HARK's first job: la biblioteca_luterana =================
+// ================= v2 · HANS's first job: la biblioteca_luterana =================
 (()=>{
 const Q=new URLSearchParams(location.search);
 const CARDS=[
- ["BIBLIOTECA_LUTERANA","Hola, soy Enzo.","Mi primer trabajo es cuidar la biblioteca luterana: 617 archivos en cinco colecciones. Empiezo por el Instituto."],
+ ["BIBLIOTECA_LUTERANA","Hola, soy HANS.","Mi primer trabajo es cuidar la biblioteca luterana: 617 archivos en cinco colecciones. Empiezo por el Instituto."],
  ["COLECCIÓN 01 · INSTITUTO","Latin American Lutheran Institute","Organización sin fines de lucro de Texas, número 153131301, formada el 12 de abril de 1999. Activa."],
  ["LINAJE","De 1999 a 2017","Hispanic Baptist Bible Institute, luego Vocational International Institute, y desde enero de 2017 el Instituto Luterano Latinoamericano."],
  ["PROPÓSITO","Equipar para el ministerio","Teología, educación religiosa, música, capellanía, consejería, formación misionera, liturgia luterana, docencia, español e inglés."],
@@ -1402,14 +1402,14 @@ function show(i){idx=(i+CARDS.length)%CARDS.length;const[k,h,p]=CARDS[idx];
   try{window.SFX&&window.SFX.play("card",{gain:.35,rate:PENTA[step++%PENTA.length]});}catch(_){}
   $$("libk").textContent=k;$$("libh").textContent=h;$$("libp").textContent=p;
   $$("libn").textContent=`${idx+1}/${CARDS.length}`;$$("libbar").style.width=((idx+1)/CARDS.length*100)+"%";
-  $$("addr").textContent=`æææ://enzo@yael/biblioteca/01/${idx}`;
+  $$("addr").textContent=`æææ://hans@osw/biblioteca/01/${idx}`;
   ex(idx>=4&&idx<=11?"think":idx===CARDS.length-1?"love":"happy");haptic(8);
   talk(`${h}. ${p}`,()=>{if(on&&auto&&idx<CARDS.length-1)setTimeout(()=>on&&auto&&show(idx+1),900);else if(on)ex("happy");});
 }
 let auto=true;
 function open(){if(vp.classList.contains("boot"))return;on=true;auto=true;vp.classList.add("is-lib");
   const a=$$("auto");if(a.textContent==="❚❚")a.dispatchEvent(new PointerEvent("pointerdown",{bubbles:true}));show(0);}
-function close(){on=false;say&&say.cancel();vp.classList.remove("is-lib");$$("addr").textContent="æææ://enzo@yael/face";ex("neutral");}
+function close(){on=false;say&&say.cancel();vp.classList.remove("is-lib");$$("addr").textContent="æææ://hans@osw/face";ex("neutral");}
 $$("libb").addEventListener("pointerdown",e=>{e.stopPropagation();on?close():open();});
 $$("libnext").addEventListener("pointerdown",e=>{e.stopPropagation();auto=false;show(idx+1);});
 $$("libprev").addEventListener("pointerdown",e=>{e.stopPropagation();auto=false;show(idx-1);});
@@ -1421,7 +1421,7 @@ $$("lib").addEventListener("touchend",e=>{if(sx==null)return;const dx=e.changedT
 // ---- ears: long-press the orb to give a voice command (Spanish) ----
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;let pressT;
 const CMDS=[[/biblioteca|instituto|libro/,()=>open()],[/siguiente|próxim|adelante/,()=>{auto=false;on?show(idx+1):open();}],[/atrás|anterior/,()=>{auto=false;show(idx-1);}],
- [/cierra|salir|cara/,()=>close()],[/duerme|dormir/,()=>ex("sleep")],[/despierta|hola|enzo/,()=>{ex("surprise");setTimeout(()=>ex("happy"),800);}],
+ [/cierra|salir|cara/,()=>close()],[/duerme|dormir/,()=>ex("sleep")],[/despierta|hola|hans|enzo/,()=>{ex("surprise");setTimeout(()=>ex("happy"),800);}],
  [/feliz|contento/,()=>ex("happy")],[/piensa/,()=>ex("think")],[/amor|quiero/,()=>ex("love")]];
 function listen(){if(!SR){$$("ear").textContent="ESTE NAVEGADOR NO ESCUCHA · USA 📚";$$("ear").classList.add("on");setTimeout(()=>$$("ear").classList.remove("on"),1800);return;}
   const r=new SR();r.lang="es-MX";r.interimResults=true;r.maxAlternatives=1;vp.classList.add("listening");$$("ear").textContent="TE ESCUCHO…";haptic([6,40,6]);
@@ -1621,7 +1621,7 @@ document.addEventListener("pointerdown",e=>{if(!m.contains(e.target))set(false);
 const D=document,W=window,RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
 // prompter: sound through the page's kit (window.SFX respects mute); silent if absent
 const sfx=n=>{try{W.SFX&&W.SFX.play&&W.SFX.play(n);}catch(_){}};
-const DEMO="# Enzo\nHola, soy Enzo, una cara robot hecha de luz y código. Vivo dentro de esta pantalla, escucho con atención y sonrío cuando me hablas.\n[pausa]\n# æææ\næææ es mi firma: tres letras que parecen ojos curiosos. Mientras lees este guion, yo te sigo la mirada, línea a línea, sin prisa.";
+const DEMO="# HANS\nHola, soy HANS, una cara robot hecha de luz y código, en honor a Hans Nielsen Hauge. Represento a #OSW ante la IOA. Vivo dentro de esta pantalla, escucho con atención y sonrío cuando me hablas.\n[pausa]\n# æææ\næææ es mi firma: tres letras que parecen ojos curiosos. Mientras lees este guion, yo te sigo la mirada, línea a línea, sin prisa.";
 const F="var(--sans,system-ui,sans-serif)",M="'Geist Mono',ui-monospace,monospace";
 // prompter: styles
 const css=`
@@ -1764,4 +1764,4 @@ W.Prompter={open:doOpen,close:doClose};
 </script>
 
 
-<script>window.__CF$cv$params={r:'a4d2b8e0dd58b8b9',t:'MTc5MjQ0MzczMA==',u:'01a155f8c90b709e9b0cd74ba966da2e',ut:'UiuPfjS8_d1UoWJXq3zQxVXqKrluptxXysI2ut2.bwY-1792443730-1.2.1.1-np4WfPiiqoYjtgsqhcBm4FSQCNffJRAXRSUPb3ZJcQHR78_L830b6TxLyz7aEvAcESTCcsJ8VZx5absG0OJ93Y8QFx1nmO6b.0Rkd11FRtE',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body></html>
+<script>window.__CF$cv$params={r:'a4d2c6352ad8ff19',t:'MTc5MjQ0NDI3Ng==',u:'01a156011dda741586bb244e563866ae',ut:'5C_bueSvEBVptY_TpcFBtZEyUzaFmba9TagU2KmnwGk-1792444276-1.2.1.1-NfzssahsQIQXe3z5lGfA.9jqcI1VslhsvYzCQZo3lgNcTVdqmYU8sE.9X1XLe1N04nMwraWze7eMcNe8ToHvXCoCjXvqCsH1E3QP2PUGVew',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body></html>
